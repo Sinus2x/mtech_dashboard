@@ -3,6 +3,7 @@ import pandas as pd
 import streamlit as st
 from typing import Literal
 
+
 def load_file():
     uploaded_file = st.file_uploader('Загрузи данные о сотрудниках')
     if uploaded_file is not None:
